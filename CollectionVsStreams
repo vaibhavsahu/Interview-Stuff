@@ -18,3 +18,11 @@ Iterator was introduced in jdk 1.2 while Spliterator is introduced in jdk 1.8
 Iterator is used for Collection API while Spliterator is used for Stream API
 
 Iterator can be used for iterating the elements in Collection in sequential order while Spliterator can be used for iterating the Stream elements in parallel or sequential order.
+
+
+Differences between Java’s OLD Date API and Java 8’s Date and Time API
+Earlier Date API was not thread safe while Java 8's Date and Time API is thread safe.
+
+Earlier Date API was mutable while Java 8's Date and Time API is Immutable.
+
+Earlier Date API defines months from 0 to 11 while Java 8's Date and Time API defines months from 1 to 12.
